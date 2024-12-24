@@ -26,8 +26,6 @@ SECRET_KEY = 'change me'
 if SECRET_KEY in os.environ: 
     SECRET_KEY = os.environ['SECRET_KEY']
 
-SECRET_KEY = 'django-insecure-4syp9o#%fa84f*x$4yv9u4altz*9exh9rk%&dbzb!!rq5*bbxh'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
